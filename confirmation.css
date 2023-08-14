@@ -1,0 +1,109 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic typography styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Cover page styling */
+.cover-page {
+    background-color: #0e0652;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cover-page h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Confirmation page styling */
+.confirmation-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0e0652;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.confirmation-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmation-page h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Order summary table styling */
+#order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#order-summary td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Summary table styling */
+#summary-table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #0e0652;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+* Style for the summary table */
+.summary-table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content within the table */
+}
+
+/* Style for the summary table content */
+#summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#summary-table th,
+#summary-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center; /* Center the content within cells */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .confirmation-page {
+        padding: 10px;
+    }
+
+    #order-summary td {
+        padding: 5px;
+    }
+
+    #summary-table {
+        padding: 5px;
+    }
+}

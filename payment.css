@@ -1,0 +1,115 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic typography styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0e0652;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Form container styling */
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Form styling */
+#payment-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Summary section styling */
+.summary {
+    flex: 1;
+    padding: 20px;
+    background-color: #0e0652;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the summary table */
+.summary-table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #0e0652;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content within the table */
+}
+
+/* Style for the summary table content */
+#summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#summary-table th,
+#summary-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center; /* Center the content within cells */
+}

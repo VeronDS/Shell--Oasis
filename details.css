@@ -1,0 +1,115 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic typography styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Cover page styling */
+.cover-page {
+    background-color: #0e0652;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cover-page h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Main content styling */
+.page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0e0652;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form field styling */
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input,
+.form-field select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Continue button styling */
+#continue-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #0e0d0d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    max-width: 200px; /* Adjust the max-width as needed */
+}
+
+#continue-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#continue-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the summary table */
+.summary-table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #0e0652;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content within the table */
+    color: #020202;
+}
+
+/* Style for the summary table content */
+#summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding-left: 30%;
+}
+
+#summary-table th,
+#summary-table td {
+    border: 1px solid #020202;
+    background-color: #0e0652;
+    padding: 8px;
+    text-align: center; /* Center the content within cells */
+    color: #fff;
+}
+
+.summary h2{
+    text-align: center;
+}
